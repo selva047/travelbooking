@@ -1,0 +1,62 @@
+/* src/pages/FlightBooking.css */
+.flight-booking-container {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; /* Maximum width */
+    margin: auto; /* Center align */
+  }
+  
+  .flight-booking-title {
+    font-size: 1.8em; /* Title font size */
+    margin-bottom: 15px; /* Space below title */
+  }
+  
+  .flight-details {
+    margin-bottom: 20px; /* Space below flight details */
+    border: 1px solid #ddd; /* Light border */
+    padding: 10px; /* Padding around flight details */
+    border-radius: 5px; /* Rounded corners */
+    background-color: white; /* White background for details */
+  }
+  
+  .flight-price {
+    font-weight: bold; /* Bold price text */
+  }
+  
+  .flight-booking-form {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Column direction */
+  }
+  
+  .flight-booking-form input {
+    padding: 10px; /* Padding inside input */
+    margin-bottom: 10px; /* Space below input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .flight-booking-form button {
+    padding: 10px; /* Padding inside button */
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+  }
+  
+  .flight-booking-form button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .booking-status {
+    margin-top: 10px; /* Space above booking status */
+    color: green; /* Green text for success */
+  }
+  
+  .booking-error {
+    margin-top: 10px; /* Space above error message */
+    color: red; /* Red text for errors */
+  }
+  

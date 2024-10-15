@@ -1,0 +1,67 @@
+/* src/pages/HotelBooking.css */
+.body{
+  background-image: url(https://img.freepik.com/premium-photo/blue-wall-with-squares-that-say-blue_606390-2446.jpg?size=626&ext=jpg);
+background-size: cover;
+}
+
+.hotel-booking-container {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; /* Maximum width */
+    margin: auto; /* Center align */
+  }
+  
+  .hotel-booking-title {
+    font-size: 1.8em; /* Title font size */
+    margin-bottom: 15px; /* Space below title */
+  }
+  
+  .hotel-details {
+    margin-bottom: 20px; /* Space below hotel details */
+    border: 1px solid #ddd; /* Light border */
+    padding: 10px; /* Padding around hotel details */
+    border-radius: 5px; /* Rounded corners */
+    background-color: white; /* White background for details */
+  }
+  
+  .hotel-price {
+    font-weight: bold; /* Bold price text */
+  }
+  
+  .hotel-booking-form {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Column direction */
+  }
+  
+  .hotel-booking-form input {
+    padding: 10px; /* Padding inside input */
+    margin-bottom: 10px; /* Space below input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .hotel-booking-form button {
+    padding: 10px; /* Padding inside button */
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+  }
+  
+  .hotel-booking-form button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .booking-status {
+    margin-top: 10px; /* Space above booking status */
+    color: green; /* Green text for success */
+  }
+  
+  .booking-error {
+    margin-top: 10px; /* Space above error message */
+    color: red; /* Red text for errors */
+  }
+  

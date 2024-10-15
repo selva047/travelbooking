@@ -1,0 +1,99 @@
+/* src/pages/HotelPage.css */
+.body{
+  background-image: url(https://img.freepik.com/premium-photo/blue-wall-with-squares-that-say-blue_606390-2446.jpg?size=626&ext=jpg);
+background-size: cover;
+}
+
+
+.hotel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background for contrast */
+    min-height: 100vh; /* Full viewport height */
+  }
+  
+  .hotel-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+  }
+  
+  .hotel-search-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; /* Max width for search form */
+    margin-bottom: 20px;
+  }
+  
+  .hotel-search-input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .hotel-search-button {
+    padding: 10px;
+    background-color: #007BFF; /* Bootstrap primary color */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+  
+  .hotel-search-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .hotel-loading {
+    color: #007BFF; /* Loading text color */
+  }
+  
+  .hotel-error {
+    color: red; /* Error text color */
+  }
+  
+  .hotel-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    width: 100%;
+    max-width: 600px; /* Max width for hotel list */
+  }
+  
+  .hotel-item {
+    background-color: white; /* White background for hotel items */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px;
+    margin: 10px 0; /* Spacing between items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .hotel-name {
+    font-size: 1.5em; /* Hotel name font size */
+    margin-bottom: 5px; /* Space below hotel name */
+  }
+  
+  .hotel-location, .hotel-availability, .hotel-price {
+    font-size: 1em; /* Font size for details */
+    margin-bottom: 5px; /* Space below details */
+  }
+  
+  .hotel-book-button {
+    padding: 10px;
+    background-color: #28a745; /* Green background for booking button */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+  
+  .hotel-book-button:hover {
+    background-color: #218838; /* Darker shade on hover */
+  }
+  

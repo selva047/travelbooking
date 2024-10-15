@@ -1,0 +1,104 @@
+/* Container styling */
+.flight-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flight-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form styling */
+  .flight-search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .flight-search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .flight-search-button {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .flight-search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Loading and error message styling */
+  .flight-loading,
+  .flight-error {
+    text-align: center;
+    font-size: 16px;
+    color: #ff6b6b;
+  }
+  
+  /* Flight list styling */
+  .flight-results {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .flight-item {
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flight-item h4 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .flight-item p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .flight-item-price {
+    font-size: 16px;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .flight-book-button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .flight-book-button:hover {
+    background-color: #218838;
+  }
+  

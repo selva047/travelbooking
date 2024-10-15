@@ -1,0 +1,61 @@
+/* src/pages/HomePage.css */
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4; /* Light background for contrast */
+  min-height: 100vh; /* Full viewport height */
+}
+
+.homepage-title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #333; /* Dark text color */
+}
+
+.homepage-description {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #666; /* Medium text color */
+  text-align: center; /* Center-align text */
+}
+
+.homepage-service-links {
+  display: flex;
+  justify-content: space-around; /* Space between service cards */
+  width: 100%; /* Full width */
+  max-width: 800px; /* Max width for responsiveness */
+  flex-wrap: wrap; /* Wrap cards on smaller screens */
+}
+
+.homepage-service-link {
+  text-decoration: none; /* Remove underline from links */
+}
+
+.homepage-service-card {
+  background-color: #fff; /* White background for cards */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.2s; /* Animation for hover effect */
+  width: 30%; /* Set card width */
+  min-width: 250px; /* Minimum card width */
+}
+
+.homepage-service-card:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+.homepage-service-title {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  color: #007BFF; /* Bootstrap primary color */
+}
+
+.homepage-service-description {
+  font-size: 1em;
+  color: #444; /* Darker text for description */
+}

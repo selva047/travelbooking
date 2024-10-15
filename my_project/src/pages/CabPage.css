@@ -1,0 +1,136 @@
+/* General container styling */
+body {
+background-image: url(https://img.freepik.com/premium-photo/blue-wall-with-squares-that-say-blue_606390-2446.jpg?size=626&ext=jpg);
+background-size: cover;
+}
+.cab-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Title styling */
+  .cab-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Search form styling */
+  .cab-search-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .cab-search-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .cab-search-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cab-search-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Results list styling */
+  .cab-results {
+    margin-top: 30px;
+  }
+  
+  .cab-item {
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .cab-item h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .cab-item p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .cab-item-price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #007bff;
+  }
+  
+  .cab-item button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cab-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Loading and Error States */
+  .cab-loading,
+  .cab-error {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ff0000;
+    margin-top: 20px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .cab-search-form {
+      flex-direction: column;
+    }
+  
+    .cab-search-input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .cab-search-button {
+      width: 100%;
+    }
+  
+    .cab-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .cab-item-price {
+      margin-top: 10px;
+    }
+  }
+  

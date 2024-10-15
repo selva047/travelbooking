@@ -1,0 +1,30 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex; /* Flexbox layout for the navbar */
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Padding inside the navbar */
+    background-color: #007bff; /* Navbar background color */
+    color: white; /* Text color */
+  }
+  
+  .navbar-logo {
+    font-size: 24px; /* Font size for the logo */
+    font-weight: bold; /* Bold font for the logo */
+  }
+  
+  .navbar-links {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Flexbox layout for links */
+    gap: 15px; /* Space between links */
+  }
+  
+  .navbar-link {
+    color: white; /* Link text color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
